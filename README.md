@@ -69,6 +69,24 @@
     </td>
   </tr>
 </table>
+<br>
 
+## IMGS
 
+- **baseimg**
+![pos-issac](https://user-images.githubusercontent.com/74906815/124236563-867b6600-db51-11eb-8b4b-17322a3087a2.JPG)
+<br>
+
+- **saveimg**
+![save-issac](https://user-images.githubusercontent.com/74906815/124238184-3b625280-db53-11eb-940c-8d324eba0446.JPG)
+
+<br>
+
+- **qrRead**
+![qrcoderead-issac](https://user-images.githubusercontent.com/74906815/124238273-5634c700-db53-11eb-8558-56e8aa9ba1ad.JPG)
+
+<br>
+
+- **cartImg**
+![cart-issac](https://user-images.githubusercontent.com/74906815/124238335-6c428780-db53-11eb-9568-5db783ecd2c6.JPG)
 
