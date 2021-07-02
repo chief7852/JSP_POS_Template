@@ -159,9 +159,17 @@ $(document).on('click', '.btn-outline-danger', function() {
 	$(this).parents("tr").remove();
 	let reprice = parseInt(deleteComma($(this).parents("tr").find(".price").text()));
 	total -= reprice;
-	$("#tax").text(putComma(total * 0.1 )+ "원");
-	$("#subtotal").text(putComma(total * 0.9) + "원");
-	$("#total").text(putComma(total) + "원");
+
+	if(total == 0){
+		$("#tax").text("0원");
+		$("#subtotal").text("0원");
+		$("#total").text("0원");
+	}else{
+		$("#tax").text(putComma(total * 0.1 )+ "원");
+		$("#subtotal").text(putComma(total * 0.9) + "원");
+		$("#total").text(putComma(total) + "원");
+	}
+
 })
 
 total = 0;
