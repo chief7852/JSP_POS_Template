@@ -1,16 +1,3 @@
-/**
- * @author 김도윤
- * @since 2021. 6. 24.
- * @version 1.0
- * @see javax.servlet.http.HttpServlet
- * <pre>
- * [[개정이력(Modification Information)]]
- * 수정일                          수정자               수정내용
- * --------     --------    ----------------------
- * 2021. 6. 24.      김도윤       최초작성            금액 포맷팅 모듈화
- * Copyright (c) 2021 by DDIT All right reserved
- * </pre>
- */
 
 // input 태그의 value를 가져와서 포맷팅해주고 그대로 그 input 태그에 넣어주는 작업
 function putCommaProcess(priceMonitor){
